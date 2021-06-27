@@ -72,15 +72,36 @@ Alıntıları gruplandırdık.
 
 
 # GPT2 GEREKSİNİMLERİNİN EDİNİLMESİ.
+https://gist.github.com/kubilaybzk/96eeb44bfe5faeed97541ff87497e98e#file-import-py
 
 Botumuzun çalışması için gerekli olan gereksinim olan GPT2 modelimizi yukarıda gösterdiğim kodları çalıştırarak Colab yada bilgisayarımız import ediyoruz. Daha sonra veri setimizi GPT2 modelimize import etdebilmemiz için bir ".txt" dosyasına çevirmemiz gerekiyor bunun için şu adımları uyguluyoruz.
 
+https://gist.github.com/kubilaybzk/9e7224ebe977127a5fc192ab5a9b0b8f#file-set_date-py
+
 Bu sayede verimizin son şekli görseldeki gibi oluyor .
+![Son gruplandırma.](https://miro.medium.com/max/700/1*PfL2KgxjCFGruc4pWwyB7w.png)
+
 𝗠𝗼𝗱𝗲𝗹𝗶𝗻 𝗲𝗴̆𝗶𝘁𝗶𝗹𝗺𝗲𝘀𝗶.
+https://gist.github.com/kubilaybzk/109161418fecc993b45080e3e3e7a718#file-train-py
 
 Yukarıda bulunan iki adet kod satırımızı çalıştırarak modelimizi eğitmeye başlıyoruz. Bu eğitim verinin büyüklüğüne bilgisayarınızın hızına göre değişiklik gösterebilir. Ek olarak modeli eğitirken GPU üzerinden çalıştırmayı unutmayın.
 Modelin eğitimi bittikten sonra daha önceki yazılarımda anlatmış olduğum 
 TextBlob ve gTTS kullanarak modelimizi Türkçe ve sesli hale getirelim .
 
+https://gist.github.com/kubilaybzk/30a0183474363368e59c6be060c8831c#file-main-py
+
+TextBlob:
+https://kubilaybozak.medium.com/working-on-natural-language-processing-with-textblob-f4c80cd0c8ad
+
+gTTS:
+https://kubilaybozak.medium.com/convert-text-to-speech-with-colab-9ed89d310cba
+
+
 Son olarak bir run alıp sonuca hep beraber bakalım. İşte Bu !
-Colab üzerinden test etmek için . TIKLAYIN.
+
+![Son](https://miro.medium.com/max/486/1*kP_866mHexGjFXXpM0Lfwg.png)
+
+
+
+Colab üzerinden test etmek için . 
+https://colab.research.google.com/drive/1pWCo4OONFaEeedbFUokGzGPjpEfqe2IQ?usp=sharing.
